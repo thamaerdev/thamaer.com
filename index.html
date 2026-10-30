@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ثمائر | thamaer — مطاعم ومقاهٍ مؤتمتة روبوتيًا بالكامل</title>
+  <meta name="description" content="ثمائر تبني مطاعم ومقاهي مؤتمتة روبوتيًا بالكامل، بروبوتات صناعية وخطوط إنتاج مؤتمتة وبرمجة متكاملة لنظام إدارة الأعمال. الإطلاق ١٥ ديسمبر ٢٠٢٦. أول مطعم: Square Squad في الشوقية بمكة المكرمة، ١ يناير ٢٠٢٧. thamaer builds fully robotically automated restaurants and cafes. Launching 15 December 2026.">
+  <meta name="theme-color" content="#070b09">
+  <link rel="canonical" href="https://thamaer.com/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ar_SA">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:site_name" content="thamaer">
+  <meta property="og:title" content="ثمائر | thamaer">
+  <meta property="og:description" content="مطاعم ومقاهٍ مؤتمتة روبوتيًا بالكامل. الإطلاق ١٥ ديسمبر ٢٠٢٦. Square Squad في الشوقية، ١ يناير ٢٠٢٧.">
+  <meta property="og:url" content="https://thamaer.com/">
+  <meta property="og:image" content="https://thamaer.com/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ثمائر | thamaer">
+  <meta name="twitter:description" content="thamaer builds fully robotically automated restaurants and cafes. Saudi Arabia, 15 December 2026. Square Squad opens 1 January 2027.">
+  <meta name="twitter:image" content="https://thamaer.com/img/og.jpg">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="img/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="img/apple-touch.png">
+  <link rel="preload" href="fonts/el-messiri.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="img/mark.webp" as="image" type="image/webp" fetchpriority="high">
+  <link rel="stylesheet" href="css/site.css">
+
+  <script>
+    try {
+      var q = new URLSearchParams(location.search).get("lang");
+      var stored = localStorage.getItem("thamaer-lang");
+      var l = q === "ar" || q === "en" ? q : stored;
+      if (l === "en" || l === "ar") {
+        document.documentElement.lang = l;
+        document.documentElement.dir = l === "en" ? "ltr" : "rtl";
+      }
+    } catch (e) {}
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "thamaer",
+    "alternateName": "ثمائر",
+    "url": "https://thamaer.com/",
+    "logo": "https://thamaer.com/img/mark.webp",
+    "email": "info@thamaer.com",
+    "telephone": "+966593030123",
+    "areaServed": "SA",
+    "description": "thamaer builds fully robotically automated restaurants and cafes, combining industrial robotics, automated production lines, and business management system programming. The company launches in Saudi Arabia on 15 December 2026.",
+    "brand": {
+      "@type": "Brand",
+      "name": "Square Squad"
+    }
+  }
+  </script>
+  <script src="js/site.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main"><span class="t-ar">تخطَّ إلى المحتوى</span><span class="t-en">Skip to content</span></a>
+  <div class="ambient" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="القائمة">
+    <div class="bar wrap">
+      <a class="brand" href="#top">
+        <img src="img/mark.webp" alt="" width="640" height="792">
+        <span class="brand-name">
+          <span class="brand-ar">ثمائر</span>
+          <span class="brand-en" translate="no">thamaer</span>
+        </span>
+      </a>
+      <nav class="nav" id="nav" aria-label="primary">
+        <a href="#about"><span class="t-ar">عن ثمائر</span><span class="t-en">About</span></a>
+        <a href="#process"><span class="t-ar">آلية العمل</span><span class="t-en">Process</span></a>
+        <a href="#systems"><span class="t-ar">المعدات</span><span class="t-en">Equipment</span></a>
+        <a href="#tech"><span class="t-ar">التقنية</span><span class="t-en">Technology</span></a>
+        <a href="#departments"><span class="t-ar">الأقسام</span><span class="t-en">Departments</span></a>
+        <a href="#brands"><span class="t-ar">العلامات</span><span class="t-en">Brands</span></a>
+        <a href="#launch"><span class="t-ar">الإطلاق</span><span class="t-en">Launch</span></a>
+        <a href="#contact"><span class="t-ar">تواصل</span><span class="t-en">Contact</span></a>
+      </nav>
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-set-lang="ar" lang="ar" aria-pressed="true">العربية</button>
+        <button type="button" data-set-lang="en" lang="en" aria-pressed="false">EN</button>
+      </div>
+      <label class="menu-btn" for="nav-toggle" aria-hidden="true">
+        <span class="burger"></span>
+      </label>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="wrap">
+        <div class="hero-grid">
+          <div>
+            <p class="badge enter d1"><i class="pulse" aria-hidden="true"></i><span class="t-ar">قريبًا</span><span class="t-en">Coming soon</span></p>
+            <h1 class="enter d2">
+              <span class="t-ar">ثمائر تبني مطاعم ومقاهٍ مؤتمتة روبوتيًا بالكامل</span>
+              <span class="t-en">thamaer builds fully robotically automated restaurants and cafes</span>
+            </h1>
+            <p class="lead enter d3">
+              <span class="t-ar">نصمّم وننشئ منشآت تعمل بمنظومة متكاملة من الروبوتات الصناعية وخطوط الإنتاج المؤتمتة وبرمجة نظام إدارة الأعمال، بدءًا من تجهيز المكونات والخبز والطهي، وصولًا إلى التجميع والتسليم. تنطلق الشركة في ١٥ ديسمبر ٢٠٢٦.</span>
+              <span class="t-en">We design and deploy establishments run by an integrated system of industrial robots, automated production lines, and business management system programming, from ingredient preparation, baking, and cooking through to assembly and handover. The company launches on 15 December 2026.</span>
+            </p>
+            <div class="actions enter d4">
+              <a class="btn btn-gold" href="#contact">
+                <span class="t-ar">تواصل معنا</span>
+                <span class="t-en">Contact us</span>
+                <span class="arrow" aria-hidden="true"></span>
+              </a>
+              <a class="btn btn-ghost" id="wa" href="https://wa.me/966593030123" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+                  <path d="M6 18.5 4.5 21l1.2-3.2A8.2 8.2 0 1 1 8 19.2L6 18.5Z"/>
+                  <path d="M9 10.2c.2 1.6 1.8 3.1 3.5 3.5"/>
+                </svg>
+                <span class="t-ar">واتساب</span>
+                <span class="t-en">WhatsApp</span>
+              </a>
+            </div>
+          </div>
+          <div class="mark-wrap enter d2" aria-hidden="true">
+            <div class="halo"></div>
+            <img src="img/mark.webp" alt="" width="640" height="792" fetchpriority="high">
+          </div>
+        </div>
+        <ul class="outcomes">
+          <li><span class="t-ar">روبوتات صناعية وخطوط إنتاج مؤتمتة</span><span class="t-en">Industrial robots and automated production lines</span></li>
+          <li><span class="t-ar">أتمتة شاملة من التحضير إلى التسليم</span><span class="t-en">End-to-end automation, from preparation to handover</span></li>
+          <li><span class="t-ar">برمجة نظام إدارة الأعمال</span><span class="t-en">Business management system programming</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap about-grid reveal">
+        <div class="prose">
+          <p class="eyebrow"><span class="t-ar">الشركة</span><span class="t-en">The company</span></p>
+          <h2><span class="t-ar">عن ثمائر</span><span class="t-en">About thamaer</span></h2>
+          <p class="sec-lead">
+            <span class="t-ar">ثمائر شركة متخصصة في تصميم وبناء المطاعم والمقاهي المؤتمتة روبوتيًا بالكامل. تجمع الشركة بين الهندسة الروبوتية، وأتمتة خطوط الإنتاج، وبرمجة نظام إدارة الأعمال ضمن منظومة واحدة، بحيث تعمل كل منشأة وفق معايير موحدة وقابلة للتكرار. ويقوم نهجنا على تقليل التدخل البشري إلى الحد الأدنى، وتعظيم التوحيد القياسي، وضمان ثبات الجودة والدقة في كل طلب.</span>
+            <span class="t-en">thamaer is a company specialized in designing and building fully robotically automated restaurants and cafes. It brings robotic engineering, production-line automation, and business management system programming together in one system, so that every establishment operates to a uniform, repeatable standard. Our approach is to minimize human intervention, maximize standardization, and ensure consistent quality and accuracy in every order.</span>
+          </p>
+        </div>
+        <blockquote class="manifesto">
+          <p>
+            <span class="t-ar">من خط الإنتاج إلى الضيف، كل خطوة مؤتمتة.</span>
+            <span class="t-en">From the production line to the guest, every step is automated.</span>
+          </p>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="band" id="process">
+      <div class="wrap reveal">
+        <p class="eyebrow"><span class="t-ar">آلية العمل</span><span class="t-en">How it works</span></p>
+        <h2><span class="t-ar">ثلاث خطوات بأدنى تدخل بشري</span><span class="t-en">Three steps with minimal human involvement</span></h2>
+        <p class="sec-lead">
+          <span class="t-ar">يمر كل طلب بثلاث مراحل مؤتمتة: طلب رقمي، وإنتاج روبوتي، واستلام ذاتي. صُمِّم المسار بالكامل ليقلل التدخل البشري إلى الحد الأدنى.</span>
+          <span class="t-en">Every order passes through three automated stages: a digital order, robotic production, and self-service pickup. The entire path is designed to reduce human intervention to the minimum.</span>
+        </p>
+        <ol class="process">
+          <li>
+            <img src="img/process-order.webp" width="1280" height="714" alt="" loading="lazy" decoding="async">
+            <div class="body">
+              <span class="idx"><span class="t-ar">٠١</span><span class="t-en">01</span></span>
+              <h3><span class="t-ar">الطلب</span><span class="t-en">Order</span></h3>
+              <p><span class="t-ar">يختار الضيف طلبه عبر كشك الطلب الذاتي أو الجوال، وتصل المواصفات مباشرة إلى نظام إدارة الأعمال دون وسيط، فلا مجال لأخطاء النقل أو سوء الفهم.</span><span class="t-en">The guest selects an order at the self-order kiosk or on the phone, and the specification reaches the business management system directly, with no intermediary and no room for transcription errors or misunderstanding.</span></p>
+            </div>
+          </li>
+          <li>
+            <img src="img/process-cooking.webp" width="1280" height="714" alt="" loading="lazy" decoding="async">
+            <div class="body">
+              <span class="idx"><span class="t-ar">٠٢</span><span class="t-en">02</span></span>
+              <h3><span class="t-ar">الإنتاج الروبوتي</span><span class="t-en">Robotic production</span></h3>
+              <p><span class="t-ar">تستلم خلايا الإنتاج الطلب فورًا، وتتولى الأذرع الروبوتية والسيور الناقلة والأفران ومحطات التغليف التحضير والطهي والتجميع والتعبئة وفق وصفة قياسية واحدة.</span><span class="t-en">Production cells receive the order immediately. Robotic arms, conveyor lines, ovens, and packaging stations handle preparation, cooking, assembly, and packing to a single standard recipe.</span></p>
+            </div>
+          </li>
+          <li>
+            <img src="img/process-pickup.webp" width="1280" height="714" alt="" loading="lazy" decoding="async">
+            <div class="body">
+              <span class="idx"><span class="t-ar">٠٣</span><span class="t-en">03</span></span>
+              <h3><span class="t-ar">الاستلام الذاتي</span><span class="t-en">Self-service pickup</span></h3>
+              <p><span class="t-ar">يفتح رمز الاستجابة السريعة على الإيصال خزانة الطلب المخصصة. لا منضدة ولا تسليم يدوي، ويبقى الطلب في خزانته حتى لحظة الاستلام.</span><span class="t-en">The QR code on the receipt opens the assigned pickup locker. There is no counter and no manual handoff, and the order stays in its locker until the moment of collection.</span></p>
+            </div>
+          </li>
+        </ol>
+
+        <h3 class="sub"><span class="t-ar">مبادئ التشغيل</span><span class="t-en">Operating principles</span></h3>
+        <div class="cards cols-4">
+          <article class="card">
+            <h3><span class="t-ar">الحد الأدنى من التدخل البشري</span><span class="t-en">Minimal human intervention</span></h3>
+            <p><span class="t-ar">تُنفَّذ خطوات الإنتاج والتعبئة والتسليم آليًا، فلا يتدخل الموظف في المسار المعتاد.</span><span class="t-en">Production, packing, and handover are carried out automatically, so staff do not intervene on the standard path.</span></p>
+          </article>
+          <article class="card">
+            <h3><span class="t-ar">أقصى درجات التوحيد القياسي</span><span class="t-en">Maximum standardization</span></h3>
+            <p><span class="t-ar">كل منتج يُنتَج وفق وصفة ومعايير واحدة مبرمجة، في كل منشأة وفي كل مرة.</span><span class="t-en">Every product is made to one programmed recipe and one set of standards, at every establishment and every time.</span></p>
+          </article>
+          <article class="card">
+            <h3><span class="t-ar">ثبات الجودة</span><span class="t-en">Consistent quality</span></h3>
+            <p><span class="t-ar">تُضبط المقادير ودرجات الحرارة وأزمنة الطهي آليًا، فتبقى الجودة ثابتة من الطلب الأول إلى الألف.</span><span class="t-en">Quantities, temperatures, and cooking times are controlled automatically, so quality holds from the first order to the thousandth.</span></p>
+          </article>
+          <article class="card">
+            <h3><span class="t-ar">الدقة</span><span class="t-en">Accuracy</span></h3>
+            <p><span class="t-ar">ينتقل الطلب رقميًا إلى خط الإنتاج دون إعادة إدخال، وتُقاس المقادير بدقة، فتنخفض الأخطاء والهدر.</span><span class="t-en">The order passes digitally to the production line without re-entry, and portions are measured precisely, reducing errors and waste.</span></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="systems">
+      <div class="wrap reveal">
+        <p class="eyebrow"><span class="t-ar">المعدات</span><span class="t-en">Equipment</span></p>
+        <h2><span class="t-ar">منظومة إنتاج بمعايير صناعية</span><span class="t-en">Production to industrial standards</span></h2>
+        <p class="sec-lead">
+          <span class="t-ar">أذرع روبوتية، وسيور ناقلة، وأفران صناعية، ومحطات تغليف روبوتية، تعمل معًا على خط إنتاج واحد تحكمه البرمجة، دون تدخل يدوي في المسار المعتاد.</span>
+          <span class="t-en">Robotic arms, conveyor lines, industrial ovens, and robotic packaging stations working together on one programmed production line, with no manual intervention on the standard path.</span>
+        </p>
+        <div class="gallery">
+          <figure>
+            <img src="img/robotic-arm.webp" width="1152" height="864" alt="" loading="lazy" decoding="async">
+            <figcaption>
+              <b><span class="t-ar">ذراع روبوتية صناعية</span><span class="t-en">Industrial robotic arm</span></b>
+              <span class="t-ar">التجميع والمناولة بدقة متكررة</span><span class="t-en">Assembly and handling with repeatable precision</span>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="img/conveyor-line.webp" width="1152" height="864" alt="" loading="lazy" decoding="async">
+            <figcaption>
+              <b><span class="t-ar">سير ناقل</span><span class="t-en">Conveyor line</span></b>
+              <span class="t-ar">نقل مستمر بين محطات الإنتاج</span><span class="t-en">Continuous transfer between production stations</span>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="img/industrial-oven.webp" width="1152" height="864" alt="" loading="lazy" decoding="async">
+            <figcaption>
+              <b><span class="t-ar">فرن نفقي صناعي</span><span class="t-en">Industrial tunnel oven</span></b>
+              <span class="t-ar">خبز متحكَّم به وقابل للتكرار</span><span class="t-en">Controlled, repeatable baking</span>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="img/packaging-robot.webp" width="1152" height="864" alt="" loading="lazy" decoding="async">
+            <figcaption>
+              <b><span class="t-ar">محطة تغليف روبوتية</span><span class="t-en">Robotic packaging station</span></b>
+              <span class="t-ar">تعبئة وتغليف بمعيار موحد دون تلامس يدوي</span><span class="t-en">Packing and sealing to one standard, without manual handling</span>
+            </figcaption>
+          </figure>
+        </div>
+        <p class="note"><span class="t-ar">صور توضيحية للمعدات الصناعية المستخدمة في هذا النوع من المنشآت.</span><span class="t-en">Illustrative images of the class of industrial equipment used in this type of establishment.</span></p>
+      </div>
+    </section>
+
+    <section class="band" id="tech">
+      <div class="wrap reveal">
+        <p class="eyebrow"><span class="t-ar">المنصات</span><span class="t-en">Platforms</span></p>
+        <h2><span class="t-ar">ثلاث منظومات تقنية</span><span class="t-en">Three technology systems</span></h2>
+        <p class="sec-lead">
+          <span class="t-ar">برمجة لإدارة الأعمال، وخطوط إنتاج روبوتية، ومسار خدمة للضيف. تُهندَس كل منظومة وفق متطلبات المنشأة.</span>
+          <span class="t-en">Business management programming, robotic production lines, and a guest service path. Each system is engineered to the requirements of the establishment.</span>
+        </p>
+        <div class="cards cols-3">
+          <article class="card">
+            <svg class="icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+              <rect x="5" y="6" width="22" height="16" rx="2"/>
+              <path d="M10 26h12M16 22v4M9 11h6M9 15h10"/>
+            </svg>
+            <h3><span class="t-ar">برمجة نظام إدارة الأعمال</span><span class="t-en">Business management system programming</span></h3>
+            <p><span class="t-ar">برمجة مخصصة تدير المنشأة من المكتب الخلفي إلى طلب الضيف: تخطيط موارد المؤسسات، والمخزون، والوصفات ومعايير تكلفة الغذاء، وكشف الفاقد والهدر، والتنبؤ بالطلب بمساعدة الذكاء الاصطناعي، والتسويق، وأكشاك الطلب الذاتي، وخزائن الاستلام.</span><span class="t-en">Custom-programmed software that runs the establishment from the back office to the guest order: ERP, inventory, recipes and food-cost standards, shrink and waste detection, AI-assisted demand forecasting, marketing, self-order kiosks, and pickup lockers.</span></p>
+          </article>
+          <article class="card">
+            <svg class="icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+              <circle cx="7" cy="25" r="2.5"/>
+              <path d="M7 22.5V17l8-5 3 3"/>
+              <circle cx="15" cy="12" r="2"/>
+              <path d="M18 15l6-7M22 5l6 3-3 5"/>
+              <path d="M4 29h24"/>
+            </svg>
+            <h3><span class="t-ar">الأتمتة الروبوتية للمطابخ</span><span class="t-en">Robotic kitchen automation</span></h3>
+            <p><span class="t-ar">خلايا إنتاج روبوتية مؤتمتة بالكامل. تعمل الأذرع الصناعية، والسيور الناقلة، والأفران، ومحطات التغليف الروبوتية كمنظومة واحدة تغطي التحضير والتشكيل والخبز والطهي والتجميع والتغليف.</span><span class="t-en">Fully automated robotic production cells. Industrial arms, conveyor lines, ovens, and robotic packaging stations operate as one system covering preparation, forming, baking, cooking, assembly, and packaging.</span></p>
+          </article>
+          <article class="card">
+            <svg class="icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+              <circle cx="16" cy="18" r="4"/>
+              <circle cx="10" cy="8" r="2"/>
+              <circle cx="22" cy="8" r="2"/>
+              <path d="M8 24c2 3 14 3 16 0"/>
+            </svg>
+            <h3><span class="t-ar">أتمتة صالة الطعام</span><span class="t-en">Dining-room automation</span></h3>
+            <p><span class="t-ar">روبوتات خدمة ذاتية الحركة لتوصيل الطلبات إلى الطاولات وإدارة مسارات الضيف داخل الصالة في منشآت الجلوس، بينما تعتمد منشآت السفري على خزائن الاستلام الذاتي.</span><span class="t-en">Autonomous service robots that deliver orders to the table and manage guest routes inside the dining room at dine-in establishments, while takeaway establishments rely on self-service pickup lockers.</span></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="departments">
+      <div class="wrap reveal">
+        <p class="eyebrow"><span class="t-ar">الشركة</span><span class="t-en">The company</span></p>
+        <h2><span class="t-ar">ثلاثة أقسام</span><span class="t-en">Three departments</span></h2>
+        <p class="sec-lead">
+          <span class="t-ar">قسم يهندس المنظومة، وقسم يُشغّل المنشآت، وقسم يخطط للنمو.</span>
+          <span class="t-en">One department engineers the system, one operates the establishments, and one plans growth.</span>
+        </p>
+        <ol class="steps">
+          <li>
+            <span class="idx"><span class="t-ar">٠١</span><span class="t-en">01</span></span>
+            <h3><span class="t-ar">التقنية</span><span class="t-en">Technology</span></h3>
+            <p><span class="t-ar">تهندس المنظومة الروبوتية وتبرمج نظام إدارة الأعمال، وتصمّم خطوط ومعدات الإنتاج الصناعية، وأكشاك الطلب، وخزائن الاستلام. يبني هذا القسم ما تعتمد عليه المنشأة كل يوم.</span><span class="t-en">Engineers the robotic system and programs the business management system, and designs the industrial production lines and equipment, order kiosks, and pickup lockers. This department builds what the establishment depends on every day.</span></p>
+          </li>
+          <li>
+            <span class="idx"><span class="t-ar">٠٢</span><span class="t-en">02</span></span>
+            <h3><span class="t-ar">التشغيل</span><span class="t-en">Operations</span></h3>
+            <p><span class="t-ar">يدير المطاعم والمقاهي يوميًا: معايير الإنتاج، ومراقبة أداء الروبوتات وخطوط الإنتاج، ومسار الضيف، وتطوير الوصفات والقوائم. ما يثبت هنا يصبح معيارًا للمنشأة التالية.</span><span class="t-en">Runs the restaurants and cafes day to day: production standards, monitoring of robot and line performance, the guest path, and recipe and menu development. What holds here becomes the standard for the next establishment.</span></p>
+          </li>
+          <li>
+            <span class="idx"><span class="t-ar">٠٣</span><span class="t-en">03</span></span>
+            <h3><span class="t-ar">الاستثمارات</span><span class="t-en">Investments</span></h3>
+            <p><span class="t-ar">يحدد خطة النمو: المواقع، والمفاهيم الجديدة، وترتيب الإطلاق. يُوجَّه رأس المال إلى حيث أثبت التشغيل جدوى النموذج.</span><span class="t-en">Sets the growth plan: sites, new concepts, and the order of launches. Capital is directed where operations has demonstrated that the model works.</span></p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="band" id="brands">
+      <div class="wrap reveal">
+        <p class="eyebrow"><span class="t-ar">العلامات</span><span class="t-en">Brands</span></p>
+        <h2><span class="t-ar">علاماتنا</span><span class="t-en">Our brands</span></h2>
+        <p class="sec-lead">
+          <span class="t-ar">أول مطعم من ثمائر. سفري فقط، ومطبخه خط إنتاج روبوتي مؤتمت بالكامل.</span>
+          <span class="t-en">The first restaurant built by thamaer. Takeaway only, with a kitchen designed as a fully automated robotic production line.</span>
+        </p>
+        <article class="brand-feature">
+          <img class="store" src="img/square-squad.webp" width="1280" height="960" alt="Square Squad" loading="lazy" decoding="async">
+          <div>
+            <img class="ss-logo" src="img/square-squad-logo.webp" width="419" height="212" alt="Square Squad">
+            <p class="badge"><i class="pulse" aria-hidden="true"></i><span class="t-ar">قريبًا</span><span class="t-en">Coming soon</span></p>
+            <p class="ss-line" translate="no">Different squares. One squad.</p>
+            <p class="sec-lead">
+              <span class="t-ar">Square Squad مطعم سفري فقط، بمطبخ مؤتمت روبوتيًا بالكامل. يقدّم برغرًا صغيرًا يُجهَّز عند الطلب، وصناديق تُركَّب من أساس وبروتين وإضافات يختارها الضيف. يُفتتح في ١ يناير ٢٠٢٧ في الشوقية بمكة المكرمة.</span>
+              <span class="t-en">Square Squad is a takeaway-only restaurant with a fully robotic kitchen. It serves small burgers prepared to order, and bowls composed from a base, a protein, and the toppings a guest selects. It opens on 1 January 2027 in Ash-Shawqiyah, Makkah.</span>
+            </p>
+            <ul class="facts">
+              <li><b><span class="t-ar">النمط</span><span class="t-en">Format</span></b><span class="t-ar">سفري فقط</span><span class="t-en">Takeaway only</span></li>
+              <li><b><span class="t-ar">المطبخ</span><span class="t-en">Kitchen</span></b><span class="t-ar">روبوتي بالكامل</span><span class="t-en">Fully robotic</span></li>
+              <li><b><span class="t-ar">الافتتاح</span><span class="t-en">Opening</span></b><span class="t-ar">١ يناير ٢٠٢٧</span><span class="t-en">1 January 2027</span></li>
+              <li><b><span class="t-ar">الموقع</span><span class="t-en">Site</span></b><span class="t-ar">الشوقية، مكة</span><span class="t-en">Ash-Shawqiyah, Makkah</span></li>
+            </ul>
+            <ol class="path">
+              <li>
+                <span class="k"><span class="t-ar">الطلب</span><span class="t-en">Order</span></span>
+                <p><span class="t-ar">من الجوال أو من كشك الطلب الذاتي. تعرض الشاشة البرغر أو الصندوق بالرسوم التفاعلية، بخيارات واضحة وتخصيص واسع.</span><span class="t-en">From the phone or at a self-order kiosk. The screen presents the burger or bowl in interactive graphics, with clear controls and a wide range of options.</span></p>
+              </li>
+              <li>
+                <span class="k"><span class="t-ar">الاستلام</span><span class="t-en">Pickup</span></span>
+                <p><span class="t-ar">يفتح الرمز المطبوع على الإيصال خزانة في جدار الاستلام. لا منضدة ولا تسليم يدوي.</span><span class="t-en">The code on the receipt opens a locker in the pickup wall. No counter and no manual handoff.</span></p>
+              </li>
+              <li>
+                <span class="k"><span class="t-ar">المساعدة عند الحاجة</span><span class="t-en">Help, only if needed</span></span>
+                <p><span class="t-ar">زر «أحتاج مساعدة». يرد ممثل الخدمة عبر السماعة، وإن لم تُحل الحالة يخرج أحد أعضاء الفريق إلى واجهة المتجر.</span><span class="t-en">An “I need help” control. A service representative answers over the loudspeaker, and if the case is not resolved, a team member comes out to the storefront.</span></p>
+              </li>
+            </ol>
+            <p class="note">
+              <span class="t-ar">يتم خبز الأقراص، وتجهيز البرغر الصغير، وتجميع الصناديق بواسطة أذرع روبوتية صناعية وأفران وسيور ناقلة ومحطات تغليف روبوتية. في المسار المعتاد لا يتدخل أي موظف على خط الإنتاج.</span>
+              <span class="t-en">Bun baking, small-burger production, and bowl assembly are performed by industrial robotic arms, ovens, conveyor lines, and robotic packaging stations. On the standard path, no staff member intervenes on the production line.</span>
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="launch">
+      <div class="wrap reveal">
+        <div class="launch-panel">
+          <div class="launch-grid">
+            <div>
+              <p class="eyebrow"><span class="t-ar">إطلاق الشركة</span><span class="t-en">Company launch</span></p>
+              <p class="place"><span class="t-ar">المملكة العربية السعودية</span><span class="t-en">Saudi Arabia</span></p>
+              <p class="when"><span class="t-ar">١٥ ديسمبر ٢٠٢٦</span><span class="t-en">15 December 2026</span></p>
+              <p class="launch-note" data-phase="before">
+                <span class="t-ar">حتى يوم الإطلاق. Square Squad، أول مطعم من ثمائر، يُفتتح في ١ يناير ٢٠٢٧ في الشوقية بمكة.</span>
+                <span class="t-en">Until launch day. Square Squad, the first restaurant built by thamaer, opens on 1 January 2027 in Ash-Shawqiyah, Makkah.</span>
+              </p>
+              <p class="launch-note" data-phase="after" hidden>
+                <span class="t-ar">انطلقت ثمائر. يُفتتح Square Squad في ١ يناير ٢٠٢٧ في الشوقية بمكة.</span>
+                <span class="t-en">thamaer has launched. Square Squad opens on 1 January 2027 in Ash-Shawqiyah, Makkah.</span>
+              </p>
+            </div>
+            <div class="clock" id="clock" aria-hidden="true">
+              <div><strong data-count="d">٠٠</strong><span class="unit"><span class="t-ar" data-label-ar="d">يوم</span><span class="t-en" data-label-en="d">Days</span></span></div>
+              <div><strong data-count="h">٠٠</strong><span class="unit"><span class="t-ar" data-label-ar="h">ساعة</span><span class="t-en" data-label-en="h">Hours</span></span></div>
+              <div><strong data-count="m">٠٠</strong><span class="unit"><span class="t-ar" data-label-ar="m">دقيقة</span><span class="t-en" data-label-en="m">Minutes</span></span></div>
+              <div><strong data-count="s">٠٠</strong><span class="unit"><span class="t-ar" data-label-ar="s">ثانية</span><span class="t-en" data-label-en="s">Seconds</span></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" id="contact">
+      <div class="wrap reveal">
+        <p class="eyebrow"><span class="t-ar">تواصل</span><span class="t-en">Contact</span></p>
+        <h2><span class="t-ar">تواصل معنا</span><span class="t-en">Get in touch</span></h2>
+        <p class="sec-lead">
+          <span class="t-ar">للشراكات، والمواقع، والاستثمار، أو أي استفسار قبل الإطلاق. يسعدنا التواصل معكم عبر البريد الإلكتروني أو واتساب أو الهاتف.</span>
+          <span class="t-en">For partnerships, sites, investment, or any inquiry ahead of launch. We welcome your message by email, WhatsApp, or phone.</span>
+        </p>
+        <div class="contact-grid">
+          <a class="contact-card" href="mailto:info@thamaer.com">
+            <svg class="icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+              <rect x="4" y="7" width="24" height="18" rx="2"/>
+              <path d="m5 9 11 8 11-8"/>
+            </svg>
+            <span class="k"><span class="t-ar">البريد الإلكتروني</span><span class="t-en">Email</span></span>
+            <span class="v" dir="ltr" translate="no">info@thamaer.com</span>
+          </a>
+          <a class="contact-card" href="tel:+966593030123">
+            <svg class="icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+              <path d="M8 6h5l2 5-3 2a14 14 0 0 0 7 7l2-3 5 2v5c0 1-1 2-2 2C12 26 6 16 6 8c0-1 1-2 2-2Z"/>
+            </svg>
+            <span class="k"><span class="t-ar">اتصال</span><span class="t-en">Call</span></span>
+            <span class="v" dir="ltr">+966 59 303 0123</span>
+          </a>
+          <a class="contact-card" id="wa-card" href="https://wa.me/966593030123" target="_blank" rel="noopener">
+            <svg class="icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+              <path d="M8 24.5 6.2 28l1.8-4.4A11 11 0 1 1 11 25.2L8 24.5Z"/>
+            </svg>
+            <span class="k"><span class="t-ar">واتساب</span><span class="t-en">WhatsApp</span></span>
+            <span class="v" dir="ltr">+966 59 303 0123</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <div>
+        <a class="brand" href="#top">
+          <img src="img/mark.webp" alt="" width="640" height="792">
+          <span class="brand-name">
+            <span class="brand-ar">ثمائر</span>
+            <span class="brand-en" translate="no">thamaer</span>
+          </span>
+        </a>
+        <p><span class="t-ar">مطاعم ومقاهٍ مؤتمتة روبوتيًا بالكامل. المملكة العربية السعودية.</span><span class="t-en">Fully robotically automated restaurants and cafes. Saudi Arabia.</span></p>
+        <p><span class="t-ar">© ٢٠٢٦ ثمائر. جميع الحقوق محفوظة.</span><span class="t-en">© 2026 thamaer. All rights reserved.</span></p>
+      </div>
+      <nav aria-label="footer">
+        <a href="#about"><span class="t-ar">عن ثمائر</span><span class="t-en">About</span></a>
+        <a href="#tech"><span class="t-ar">التقنية</span><span class="t-en">Technology</span></a>
+        <a href="#brands"><span class="t-ar">العلامات</span><span class="t-en">Brands</span></a>
+        <a href="#launch"><span class="t-ar">الإطلاق</span><span class="t-en">Launch</span></a>
+        <a href="mailto:info@thamaer.com">info@thamaer.com</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
